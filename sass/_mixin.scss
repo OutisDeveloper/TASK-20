@@ -1,0 +1,41 @@
+//MIXIN-FOR-BTNS
+
+//all-buttons
+* button {
+  color: $white;
+  border-radius: $btbora;
+  background-color: $green;
+  transition: $tran;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  border: 1px solid transparent;
+  &:hover {
+    background-color: $white;
+    color: $green;
+    border-color: #BCD0E5;
+  }
+}
+@mixin btn_11-18 {
+  padding: 11px 18px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+@mixin btn_10-24 {
+  padding: 10px 24px;
+}
+@mixin btn_15-40 {
+  padding: 15px 40px;
+}
+//white-btn
+@mixin white-btn {
+  background-color: $white;
+  color: $green;
+  border-radius: 8px;
+  padding: 10px 34px;
+  &:hover {
+    background-color: $green;
+    color: $white;
+  }
+}
